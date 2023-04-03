@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Frontend Spur</title>
+   <link rel="shortcut icon" href="./img/20230208_133526.png" type="image/x-icon">
+   <link rel="stylesheet" href="./bootstrap-5.2.3-dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="./fontawesome-free-6.2.1-web/css/all.min.css">
+   <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+
+   <!-- nav bar -->
+   <nav class="navbar ps-4 pe-2 header">
+      <div class="brand">
+         Spur
+      </div>
+
+
+      <div class="d-flex category d-none d-sm-none d-md-block">
+         <ul>
+            <a href="./index.html">
+            <li>Home</li>
+            </a>
+            <a href="#about_me">
+            <li>About Me</li>
+            </a>
+            <a href="#projects">
+            <li>Gallery</li>
+            </a>
+         </ul>
+      </div>
+
+
+      <div class="socials">
+         <a href="https://github.com/SpurMedia" target="_blank" class="d-md-none">
+            <i class="fab fa-github fa-xl"></i>
+         </a>
+         <a href="https://www.linkedin.com/in/akegbejo-abiodun-884914245" target="_blank" class="d-md-none">
+            <i class="fab fa-linkedin fa-xl"></i>
+         </a>
+         <a href="tel:+2349121698513" target="_blank">
+            <i class="fa fa-phone fa-xl"></i>
+         </a>
+         <a href="#" id="copy-button">
+             <i class="fa fa-share-alt fa-xl" id="liveAlertBtn"></i>
+         </a>
+      </div>
+
+      <div class="alert text-wrap" id="liveAlertPlaceholder"></div>
+
+   </nav>
+
+   <!-- introduction section -->
+   <div class="intro d-flex">
+      <div class=" col-lg-6  col-md-7 col-sm-7 col-12">
+         <div class="big">
+            Hi<span class="coma">,</span>
+         </div>
+
+         <div class="big">
+            I'm <span class="name"> Akes Spur </span>
+         </div>
+
+         <div class="text-wrap">
+            <span>
+               UI desginer and Front-end developer at Megamind Set. Specialized
+               in designing and developing fully responsive websites.
+            </span>
+         </div>
+
+         <div class="dropdown intro_buttons d-flex flex-wrap">
+            <button class="intro_button btn dropdown-toggle connect" id="dropdownMenuButton1" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Let's Connect
+            </button>
+               <ul class="z-index-3 dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                 <li><a class="dropdown-item languages" href="https://github.com/SpurMedia" target="_blank">
+                     <img src="./img/github2.png" >
+                     <span>GitHub</span>
+                  </a></li>
+                  <li><a class="dropdown-item languages border-top" href="#">
+                     <img src="./img/icons8-instagram-48.png">
+                     <span>Instagram</span>
+                  </a></li>
+                  <li><a class="dropdown-item languages border-top" href="#">
+                     <img src="./img/icons8-tiktok-50.png">
+                     <span>TikTok</span>
+                  </a></li>
+               </ul>
+
+            <a href="./blank.pdf" target="_blank" download><button class="intro_button" id="white" type="button"> Download CV </button> </a>
+         </div>
+      </div>
+
+      <div class="col-lg-6 d-none d-sm-block ms-xl-5 ms-lg-5 ms-md-2">
+         <img src="./img/b96d858f-a648-4985-8654-b4dec0a58f11.png">
+      </div>
+
+   </div>
+
+
+   <!-- about  -->
+   <div class="about d-flex flex-column align-items-center" id="about_me">
+      <div class="head"> About Me</div>
+      <div class="body text-wrap col-lg-6 col-md-7 col-sm-11 col-11 col-xl-6 col-xxl-6">
+         I am a highly motivated front-end developer with a passion for creating visually appealing and user-friendly
+         web experiences. With experience in HTML, CSS, JavaScript, and React, I strive to turn complex design concepts
+         into clean and efficient code. I am always eager to learn new technologies and expand my skills in the
+         ever-evolving world of web development.
+      </div>
+
+      <!-- clients count -->
+      <div class="d-flex">
+         <div class="d-flex me-5 count">
+            <div id="counter1" class="d-flex count_no fw-bold">
+               0
+            </div>
+            <div class="ms-3 row fs-5 col-5 text-wrap count_text">
+               Months Of Experience
+            </div>
+         </div>
+
+         <div class="d-flex">
+            <div class="d-flex me-5 count">
+               <div class="d-flex count_no fw-bold">
+                  <div id="counter2">0</div>
+                  <div>+</div>
+               </div>
+               <div class="ms-3 row fs-5 col-5 text-wrap count_text">
+                  Happy Clients
+               </div>
+            </div>
+         </div>
+      </div>
+
+      <!-- skill card -->
+      <div class="card_holder d-md-flex d-lg-flex">
+
+         <div class="skill p-3" id="skill1">
+            <div class="pb-2 pt-1"><img src="./img/icons8-wireframe-58.png"></div>
+            <div class="fs-5 fw-bold mt-1">
+               wireframe
+            </div>
+            <div class="text-wrap fs-6 mt-3">
+               I bring user-center design approach to projects, translating ideas into organized wireframes. My
+               wireframe skills ensure efficient planning for any type of web project.
+            </div>
+         </div>
+
+         <div class="skill p-3" id="skill2">
+            <div class="pb-2 pt-1"><img src="./img/icons8-wireframe-64.png"></div>
+            <div class="fs-5 fw-bold mt-1">
+               UI/UX
+            </div>
+            <div class="text-wrap fs-6 mt-3">
+               Experienced UI/UX designer delivering user-centered digital solutions with technical proficiency and
+               effective solutions, resulting in improved user satisfaction.
+            </div>
+         </div>
+
+         <div class="skill p-3" id="skill3">
+            <div class="pb-2 pt-1"><img src="./img/icons8-backend-development-96.png"></div>
+            <div class="fs-5 fw-bold mt-1">
+               FrontEnd
+            </div>
+            <div class="text-wrap fs-6 mt-3">
+               Experienced front-end developer delivering impactful, responsive web experiences through technical
+               proficiency and creative vision, driving user satisfaction.
+            </div>
+         </div>
+
+      </div>
+   </div>
+
+
+   <!-- tools section -->
+   <div class="tools d-flex flex-wrap justify-content-center">
+    
+      <h5 class="w-100 p_head" id="animate">
+         Hover the icons bellow
+      </h5>
+
+      <div class="tool">
+         <img src="./img/icons8-figma-96.png">
+         <span>Figma</span>
+      </div>
+
+      <div class="tool">
+         <img src="./img/icons8-bootstrap-96.png">
+         <span> GitHub </span>
+      </div>
+
+      <div class="tool">
+         <img src="./img/icons8-git-96.png">
+         <span>Git</span>
+      </div>
+
+
+      <div class="tool">
+         <img src="./img/icons8-visual-studio-code-2019-96.png">
+         <span>Vs Code </span>
+      </div>
+   </div>
+
+
+   <h5 class="w-100 p_head">
+      Languages & Frameworks
+   </h5>
+   <!-- skills -->
+   <div class="tools d-flex flex-wrap justify-content-center">
+      <div class="languages">
+         <img src="./img/icons8-html-96.png">
+         <span>Html</span>
+      </div>
+
+      <div class="languages">
+         <img src="./img/icons8-css3-96.png">
+         <span> Css </span>
+      </div>
+
+      <div class="languages">
+         <img src="./img/icons8-javascript-96.png">
+         <span> JavaScript </span>
+      </div>
+
+      <div class="languages">
+         <img src="./img/icons8-bootstrap-96.png">
+         <span>Bootstrap</span>
+      </div>
+
+
+      <div class="languages">
+         <img src="./img/icons8-tailwind-css-96.png">
+         <span> Tailwind </span>
+      </div>
+   </div>
+
+
+   <h4 class="w-100 p_head" id="projects">
+       Recent Projects
+   </h4>
+   <!-- projects -->
+   <div class="p-3 container projects d-block">
+      <div class="card mb-4">
+         <div class="row g-0">
+            <div class="col-md-5 mt-auto mb-auto">
+               <img src="./img/Screenshot 2023-01-02 170830.png" class="img-fluid">
+            </div>
+            <div class="col-md-7 text-wrap">
+               <div class="card-body">
+                  <p class="card-title fs-2 fw-bold"> Taxi Login Page </p>
+                  <p class="text-muted">
+                     <span>&#x2022;Css</span> <span>&#x2022;BootStrap</span> <span>&#x2022;JavaScript</span>
+                  </p>
+                  <p class="card-text text-muted fs-6">
+                     A secure and convenient frontend login page with user-friendly design.
+                     For a taxi company.
+                  </p>
+                  <div class="d-flex">
+                     <div class="lang live d-flex me-3" id="blue">
+                        <a href="https://delicate-druid-f14dfd.netlify.app/" target="_blank">
+                        <span>View Live</span>
+                        </a>
+                     </div>
+
+                     <div class="lang d-flex effect">
+                        <a href="https://github.com/SpurMedia/taxi-company-login" target="_blank">
+                        <span>GitHub</span>
+                     </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+
+      <div class="card mb-4">
+         <div class="row g-0">
+            <div class="col-md-5  mt-auto mb-auto">
+               <img src="./img/cinema.png" class="img-fluid">
+            </div>
+            <div class="col-md-7 text-wrap">
+               <div class="card-body">
+                  <p class="card-title fs-2 fw-bold"> Cinema Themed Website </p>
+                  <p class="text-muted">
+                     <span>&#x2022;Css</span> <span>&#x2022;BootStrap</span> <span>&#x2022;JavaScript</span>
+                  </p>
+                  <p class="card-text text-muted fs-6">
+                     A complete movie experience with an extensive film library, showtimes, ticket purchasing, and movie
+                     information.
+                  </p>
+                  <div class="d-flex">
+                     <div class="lang live d-flex me-3" id="blue">
+                        <a href="https://bit.ly/Spur_movies" target="_blank">
+                           <span>View Live</span>
+                        </a>
+                     </div>
+
+                     <div class="lang d-flex effect">
+                        <a href="https://github.com/SpurMedia/a-cinema-themed-website" target="_blank">
+                           <span>GitHub</span>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+
+      <div class="card mb-4">
+         <div class="row g-0">
+            <div class="col-md-5 mt-auto mb-auto">
+               <img src="./img/socials site.png" class="img-fluid">
+            </div>
+            <div class="col-md-7 text-wrap">
+               <div class="card-body">
+                  <p class="card-title fs-2 fw-bold"> Social Bio </p>
+                  <p class="text-muted">
+                     <span>&#x2022;Html</span> <span>&#x2022;Css</span>
+                  </p>
+                  <p class="card-text text-muted fs-6">
+                     Stay connected with me on all my social media platforms! Follow my
+                     latest updates, projects and personal musings.
+                  </p>
+                  <div class="d-flex">
+                     <div class="lang live d-flex me-3" id="blue">
+                        <a href="https://beamish-dasik-545741.netlify.app/" target="_blank">
+                           <span>View Live</span>
+                        </a>
+                     </div>
+
+                     <div class="lang d-flex effect">
+                        <a href="https://github.com/SpurMedia/my-socialmedia-accts" target="_blank">
+                           <span>GitHub</span>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+
+
+      <div class="card mb-4">
+         <div class="row g-0">
+            <div class="col-md-5 card-image  mt-auto mb-auto">
+               <img src="./img/portfolio.png" class="img-fluid">
+            </div>
+            <div class="col-md-7 text-wrap">
+               <div class="card-body">
+                  <p class="card-title fs-2 fw-bold"> Portfolio </p>
+                  <p class="text-muted">
+                     <span>&#x2022;Html</span> <span>&#x2022;Css</span> <span>&#x2022;Bootstrap</span> <span>&#x2022;JavaScript</span>
+                  </p>
+                  <p class="card-text text-muted fs-6">
+                     A portfolio website built to contain my personal info, resume and pervious projects.
+                  </p>
+                  <div class="d-flex">
+                     <div class="lang live d-flex me-3" id="blue">
+                        <a href="https://frontendspur.netlify.app/" target="_blank">
+                           <span>View Live</span>
+                        </a>
+                     </div>
+
+                     <div class="lang d-flex effect">
+                        <a href="https://github.com/SpurMedia/Akes-Portfolio.git" target="_blank">
+                           <span>GitHub</span>
+                        </a>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+   </div>
+
+   <div class="preloader">
+      <P class="load"> SPUR </P>
+   </div>
+
+  <footer class="col-12 d-flex justify-content-center border-top">
+   <p class="fs-6 text-muted mt-2">© 2023 Akes Spur</p>
+</footer>
+   
+   <script src="./bootstrap-5.2.3-dist/js/bootstrap.min.js"></script>
+   <script src="./bootstrap-5.2.3-dist/js/bootstrap.bundle.min.js"></script>
+   <script>
+      
+          window.addEventListener("load", function () {
+      var preloader = document.querySelector(".preloader");
+      preloader.style.display = "none";
+    });
+
+    window.addEventListener("beforeunload", function () {
+      var preloader = document.querySelector(".preloader");
+      preloader.style.display = "block";
+    });
+
+      var header = document.querySelector(".header");
+
+      window.onscroll = function () {
+         if (window.pageYOffset > 50) {
+            header.classList.add("header-scrolled");
+         } else {
+            header.classList.remove("header-scrolled");
+         }
+      };
+
+      var count1 = 0;
+      var target1 = 6;
+      var counter1 = document.getElementById("counter1");
+
+      var count2 = 0;
+      var target2 = 4;
+      var counter2 = document.getElementById("counter2");
+
+      function increment1() {
+         count1++;
+         counter1.innerHTML = count1;
+         if (count1 < target1) {
+            setTimeout(increment1, 120);
+         }
+      }
+
+      function increment2() {
+         count2++;
+         counter2.innerHTML = count2;
+         if (count2 < target2) {
+            setTimeout(increment2, 150);
+         }
+      }
+
+      increment1();
+      increment2();
+
+
+         const copyButton = document.getElementById("copy-button");
+
+         copyButton.addEventListener("click", () => {
+            const currentUrl = window.location.href;
+            navigator.clipboard.writeText(currentUrl).then(() => {
+               console.log("Link copied to clipboard");
+            }, (err) => {
+               console.error("Failed to copy text: ", err);
+            });
+         });
+
+
+         var alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+var alertTrigger = document.getElementById('liveAlertBtn')
+
+function alert(message, type) {
+  var wrapper = document.createElement('div')
+  wrapper.innerHTML = '<div class="alert alert-' + type + ' alert-dismissible" role="alert">' + message + '<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>'
+
+  alertPlaceholder.append(wrapper)
+}
+
+if (alertTrigger) {
+  alertTrigger.addEventListener('click', function () {
+    alert('Link copied successfully!', 'success')
+  })
+}
+   </script>
+</body>
+
+</html>
